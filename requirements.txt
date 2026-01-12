@@ -1,0 +1,18 @@
+# Notepad+++ PDF Viewer & Annotation Application
+
+# Core Framework
+PyQt6>=6.5.0
+PyQt6-Qt6>=6.5.0
+PyQt6-sip>=13.5.0
+
+# PDF Processing
+PyMuPDF>=1.23.0
+
+# Image Processing
+Pillow>=10.0.0
+
+# Database
+SQLAlchemy>=2.0.0
+
+# Performance (optional but recommended)
+numpy>=1.24.0
