@@ -1,4 +1,14 @@
+
+<div align="center">
+
 # Notepad+++
+
+<img style="width: 25%; aspect-ratio: 1" src="goose.png">
+</div>
+
+<br/>
+<br/>
+<br/>
 
 .pdf annotation app built with Python + PyQt6.
 
