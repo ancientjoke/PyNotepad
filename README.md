@@ -39,8 +39,8 @@ pip install pyinstaller
 pyinstaller --noconfirm --onefile --windowed --name "Notepad+++" main.py
 ```
 
-- Output will be in `dist\Notepad+++\Notepad+++ .exe` (single file).
-- `--windowed` removes the console window; omit it if you want stdout/stderr.
+- Output will be in `dist\Notepad+++\Notepad+++ .exe` 
+- `--windowed` removes the console window; omit it if you want stdout/stderr
 
 2.1) app icon
 
