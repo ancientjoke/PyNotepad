@@ -1,9 +1,3 @@
-"""
-Notepad+++ - Professional PDF Viewer & Annotation Application
-
-Main entry point for the application.
-"""
-
 from __future__ import annotations
 import sys
 import os
@@ -17,12 +11,10 @@ from PyQt6.QtGui import QIcon
 
 def setup_environment() -> None:
     """Configure the application environment."""
-    # Add the project root to sys.path for imports
     project_root = Path(__file__).parent
     if str(project_root) not in sys.path:
         sys.path.insert(0, str(project_root))
     
-    # Set working directory to project root
     os.chdir(project_root)
 
 
@@ -192,7 +184,7 @@ def main():
         window = create_main_window(services)
         window.show()
         
-        # Handle command line arguments (open files)
+        # Handle command line arguments
         if len(sys.argv) > 1:
             for arg in sys.argv[1:]:
                 file_path = Path(arg)
@@ -218,3 +210,4 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+
