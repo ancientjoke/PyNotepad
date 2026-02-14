@@ -20,10 +20,8 @@
 	python -m venv .venv
 	.\.venv\Scripts\Activate.ps1
 	```
- 	```
   	# If PowerShell blocks scripts, run:
 	# Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-	```
 2. **Install dependencies**
 
 	```powershell
