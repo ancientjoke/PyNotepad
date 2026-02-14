@@ -52,8 +52,8 @@
 	```
 
 	- Output: `dist\Notepad+++.exe`
-	- If the icon does not show, ensure goose.ico is valid and in the project root
-	- `--windowed` removes the console window; omit it for debug output
+	- If the icon does not show, ensure notepadplusplusplus.ico is valid and in the project root, alternatively whatever .ico image u choose
+	- `--windowed` removes the console window; omit it for debug output, if choosing to modify the app
 
 3. **Run the app**
 	located in dist folder as .exe file, pin to taskbar
@@ -70,4 +70,7 @@ Preview
 
 ---
 
-ide next??
+## todo:
+	- allow for inapp modifications to app layout
+	- add written notes + coding indentations options
+	- etc etc.
