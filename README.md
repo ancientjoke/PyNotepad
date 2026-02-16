@@ -133,4 +133,7 @@ mac preview
 ## todo:
 	- allow for inapp modifications to app layout
 	- add written notes + coding indentations options
+	- latex implementations
+	- ide ? of notepad++ into
+	- ...
 	- etc etc.
