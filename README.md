@@ -12,7 +12,7 @@
 
 .pdf annotation app built with Python + PyQt6.
 
-## Windowns Installation , scroll down for mac
+## Windowns Installation 1/2
 
 ---
 
@@ -64,7 +64,7 @@
 	```
 ---
 
-## Mac Installation
+## Mac Installation 2/2
 
 ---
 
