@@ -117,7 +117,7 @@ def create_main_window(services: dict):
     from ui.main_window import MainWindow
     
     window = MainWindow(services)
-    window.setWindowTitle("Notepad+++ - PDF Viewer")
+    window.setWindowTitle("Notepad++++++++++++++++++++++++++++++++++++++")
     window.resize(1400, 900)
     
     return window
@@ -210,4 +210,5 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+
 
